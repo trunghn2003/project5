@@ -9,7 +9,7 @@ const PhotoRouter = require("./routes/PhotoRouter");
 dbConnect();
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: "https://lt22z6-3000.csb.app",
 }));
 app.use(express.json());
 app.use("/api/user", UserRouter);
